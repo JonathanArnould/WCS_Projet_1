@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+
+#portfolio {
+    padding: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+#presentation {
+    width: 100%;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+}
+
+.button_div_portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_portfolio {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
+#container_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+
+.portfolio_pics {
+}
+
