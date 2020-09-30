@@ -1,7 +1,7 @@
 console.log("Hello World");
 const containerPortfolio = document.getElementById("container_photos");
 
-const weddingArray = [ "https://placekitten.com/200/287", "https://placekitten.com/200/147", "https://placekitten.com/200/157", "https://placekitten.com/200/107", "https://placekitten.com/200/245", "https://placekitten.com/200/285"
+const weddingArray = [ "https://placekitten.com/200/287", "https://placekitten.com/200/147", "https://placekitten.com/200/157", "https://placekitten.com/200/107", "https://placekitten.com/200/245", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285", "https://placekitten.com/200/285"
 
 ]
 

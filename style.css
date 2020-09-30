@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
-
 #portfolio {
-    padding: 10px;
+    padding: 0;
     justify-content: space-around;
     width: 100%;
     height: auto;
@@ -15,7 +14,7 @@ body {
     width: 100%;
     font-size: 1em;
     color: black;
-    text-align: justify;
+    text-align: center;
 }
 
 .button_div_portfolio {
@@ -34,25 +33,27 @@ body {
 #container_photos {
     display: flex;
     flex-wrap: wrap;
-    margin: 2vmin;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 0;
   }
   
 .portfolio_pics_frame {
     height: 40vh;
-    flex-grow: 1;
-    margin: 2vmin;
+    width: 30%;
+    margin: 10px;
     list-style-type: none;
-  }
-  
-.portfolio_pics_frame:last-child {
-    flex-grow: 10;
+    box-shadow: 10px 10px 10px rgb(206, 206, 206);
   }
   
 .portfolio_pics {
-    height: 100%;
-    width: auto;
+    max-height: 40vh;
+    min-height: 40vh;
+    max-width: 100%;
+    min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
     border-radius: 1vmin;
+    object-fit: cover;
   }
 
