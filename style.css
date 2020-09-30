@@ -34,13 +34,25 @@ body {
 #container_photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: flex-start;
-    padding: 5px;
-}
-
-
+    margin: 2vmin;
+  }
+  
+.portfolio_pics_frame {
+    height: 40vh;
+    flex-grow: 1;
+    margin: 2vmin;
+    list-style-type: none;
+  }
+  
+.portfolio_pics_frame:last-child {
+    flex-grow: 10;
+  }
+  
 .portfolio_pics {
-}
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 1vmin;
+  }
 

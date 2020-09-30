@@ -6,10 +6,13 @@ const weddingArray = [ "https://placekitten.com/200/287", "https://placekitten.c
 ]
 
 function addPics(imageURL) {
+    const creatingLi = document.createElement("li");
+    creatingLi.classList.add("portfolio_pics_frame");
     const creatingImage = document.createElement("img");
     creatingImage.src = imageURL;
     creatingImage.classList.add("portfolio_pics");
-    containerPortfolio.appendChild(creatingImage);
+    containerPortfolio.appendChild(creatingLi);
+    creatingLi.appendChild(creatingImage);
 }
 
 for (let i = 0; i < weddingArray.length; i++) {
