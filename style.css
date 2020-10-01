@@ -26,7 +26,7 @@ header, body,html{
      background-color: var(--primary-color);
  }
 
- ul{
+ #sommaire {
      /* border: 1px solid red; */
      display: flex;
      flex-direction: row;
@@ -130,3 +130,82 @@ header, body,html{
  }
 
  
+/*---------------PORTFOLIO - JONATHAN-------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio {
+    padding: 0;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.paragraphe_presentation {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    padding: 1em 3em;
+    background-color:rgba(27, 37, 51, 1);
+}
+
+#presentation {
+    width: 100%;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.button_div_portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+
+.button_portfolio {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    border: 1px;
+    transition-duration: 1s;
+}
+
+.button_portfolio:hover {
+    box-shadow: 8px 8px 12px #aaa;
+    font-weight: bolder;
+    background-color: rgba(27, 37, 51, 1);
+    color: white;
+}
+
+#container_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 0;
+  }
+  
+.portfolio_pics_frame {
+    height: 40vh;
+    width: 30%;
+    margin: 10px;
+    list-style-type: none;
+    box-shadow: 10px 10px 10px rgb(206, 206, 206);
+  }
+  
+.portfolio_pics {
+    max-height: 40vh;
+    min-height: 40vh;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    object-fit: cover;
+  }
+
