@@ -1,0 +1,27 @@
+/* Code CSS de Yanis*/
+#container-tarifs {
+    display:flex;
+    justify-content: center;
+    
+  }
+  #cercle {
+      width: 300px;
+      height: 300px;
+      border-radius: 300px;
+      background:white ;
+      border: solid black;
+      margin-right: 20px
+      
+  }
+  
+  
+  
+  
+  #rond {
+      width: 300px;
+      height: 300px;
+      border-radius: 300px;
+      background:white ;
+      border: solid black;
+      margin-left: 20px;
+  }
