@@ -101,7 +101,7 @@ header, body,html{
      background-color: var(--primary-color);
  }
 
- ul{
+ #sommaire{
      /* border: 1px solid red; */
      display: flex;
      flex-direction: row;
