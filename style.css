@@ -1,7 +1,5 @@
 /* ------------PARTIE DE BASTIEN --------- */
 
-
-
 :root{
     --primary-color: rgba(27, 37, 51, 1);
     --font-h1: 'Josefin Slab', serif;
@@ -33,7 +31,7 @@ header, body,html{
      justify-content: space-between;
      list-style-type:none ;
      width: 45%;
-     font-family: var(--font);
+     font-family: var(--font-h2);
      color: whitesmoke;
      font-size: 1.2em;
      
