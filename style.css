@@ -76,3 +76,111 @@ body {
     vertical-align: bottom;
     object-fit: cover;
   }
+
+/* ---------------PARTIE DE BASTIEN ------------ */
+
+:root{
+    --primary-color: rgba(27, 37, 51, 1);
+    --font-h1: 'Josefin Slab', serif;
+    --font-h2:'Josefin Slab', serif;
+    --font:'Old Standard TT', serif;
+}
+
+
+header, body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ .content {
+     /* border: 1px solid yellow; */
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     background-color: var(--primary-color);
+ }
+
+ ul{
+     /* border: 1px solid red; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style-type:none ;
+     width: 45%;
+     font-family: var(--font-h2);
+     color: whitesmoke;
+     font-size: 1.2em;
+     
+ }
+
+ a{
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ a:hover{
+     color: whitesmoke;
+     font-weight: bold;
+ }
+
+
+
+
+ #banniere {
+     /* border: 1px solid pink; */
+     height: 820px;
+     background: url(photo.jpg) no-repeat center center;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     justify-content: center;
+ }
+
+ h1{
+     color: whitesmoke;
+     font: var(--font-h1);
+     font-size: 3vw;
+     letter-spacing: 0.5em;
+     background-color: rgba(27, 37, 51, 0.8);
+     text-align: center;
+     padding-left: 10px;
+
+ }
+
+ #soustitre{
+    color: whitesmoke;
+    font: var(--font-h2);
+    font-size: 1.3em;
+    text-align: center;
+ }
+
+    
+
+ /* --------------Code CSS de Yanis-----------------*/
+ #container-tarifs {
+    display:flex;
+    justify-content: center;
+  }
+
+  #cercle {
+      width: 300px;
+      height: 300px;
+      border-radius: 300px;
+      background:white ;
+      border: solid black;
+      margin-right: 20px
+      
+  }
+  
+  
+  #rond {
+      width: 300px;
+      height: 300px;
+      border-radius: 300px;
+      background:white ;
+      border: solid black;
+      margin-left: 20px;
+  }
+
+ 
