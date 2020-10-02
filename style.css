@@ -155,7 +155,40 @@ header, body,html{
     text-align: center;
  }
 
-    
+/*  MEDIA QUERIES */
+
+@media all and (max-width: 860px)
+{
+    a{
+        display: none;
+
+   }
+
+   #burger {
+       width: 28px;
+       height: 20px;
+       color: whitesmoke;
+       /* border: whitesmoke 1px solid; */
+   }
+
+   .content{
+       display: flex;
+       justify-content: right;
+       padding-right: 3% ;
+       align-items: center;
+   }
+   
+
+} 
+
+
+@media all and (min-width: 860px)
+{
+   #burger {
+       display: none;
+   }
+  
+} 
 
  /* --------------Code CSS de Yanis-----------------*/
  #container-tarifs {
