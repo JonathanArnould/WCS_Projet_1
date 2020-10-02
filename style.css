@@ -184,3 +184,86 @@ header, body,html{
   }
 
  
+/*css Greg ------------------------ */
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px;
+  }
+  
+  label {
+    line-height: 2;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="envoyer"] {
+
+  }
+
+footer{
+    background-color: rgba(27, 37, 51, 1);
+
+}
+  
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    color: #fff;
+    font-size: 1vw;
+  }
+  
+
+
+.icons_footer{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2em;
+    width: 20%;
+} 
+
+
+
+.logo_rs {
+  
+  width: 6%; 
+  height: auto;
+  margin: 1em; 
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}  
+div{
+    
+  list-style-type: none;
+  }
+  
+.mentionslegales {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 10px;
+    margin: 10;
+       
+  }
+  
+  
+h4 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+        
+  }
