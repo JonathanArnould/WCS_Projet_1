@@ -136,8 +136,13 @@ header, body,html{
      justify-items: center;
      justify-content: center;
  }
-
- h1{
+#titres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+ #titre{
      color: whitesmoke;
      font: var(--font-h1);
      font-size: 3vw;
@@ -152,10 +157,43 @@ header, body,html{
     color: whitesmoke;
     font: var(--font-h2);
     font-size: 1.3em;
-    text-align: center;
+    align-items: center;
  }
 
-    
+/*  MEDIA QUERIES */
+
+@media all and (max-width: 860px)
+{
+    a{
+        display: none;
+
+   }
+
+   #burger {
+       width: 28px;
+       height: 20px;
+       color: whitesmoke;
+       /* border: whitesmoke 1px solid; */
+   }
+
+   .content{
+       display: flex;
+       justify-content: right;
+       padding-right: 3% ;
+       align-items: center;
+   }
+   
+
+} 
+
+
+@media all and (min-width: 860px)
+{
+   #burger {
+       display: none;
+   }
+  
+} 
 
  /* --------------Code CSS de Yanis-----------------*/
  #container-tarifs {
@@ -212,16 +250,12 @@ footer{
     background-color: rgba(27, 37, 51, 1);
 
 }
-  
-h3 {
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    color: #fff;
-    font-size: 1vw;
-  }
-  
 
+#container_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .icons_footer{
 
@@ -242,21 +276,14 @@ h3 {
     
 }
 
-div {
-    display: flex;
-    justify-content: center;
-}  
-div{
-    
-  list-style-type: none;
-  }
-  
 .mentionslegales {
+    
     display: flex;
     justify-content: flex-end;
     color: #fff;
     padding: 10px;
     margin: 10;
+    margin-right: 20px;
        
   }
   
