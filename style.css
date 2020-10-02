@@ -50,7 +50,7 @@ h3 {
 
 .logo_rs {
   
-  width: 3%; 
+  width: 6%; 
   height: auto;
   margin: 1em; 
     
@@ -70,7 +70,7 @@ div{
     justify-content: flex-end;
     color: #fff;
     padding: 10px;
-    margin: 0;
+    margin: 10;
        
   }
   
