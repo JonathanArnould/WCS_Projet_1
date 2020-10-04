@@ -40,7 +40,7 @@ body {
     font-size: 2em;
     color: black;
     border: 1px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .button_portfolio:hover {
@@ -48,7 +48,16 @@ body {
     font-weight: bolder;
     background-color: rgba(27, 37, 51, 1);
     color: white;
+    cursor: default;
 }
+
+.button_portfolio:active {
+        transition: 0s;
+        background-color: rgb(31, 44, 61);
+        box-shadow: 8px 4px 12px #666;
+        transform: translateY(4px);
+        cursor: default;
+    }
 
 #container_photos {
     display: flex;
