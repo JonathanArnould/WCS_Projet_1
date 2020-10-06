@@ -9,6 +9,10 @@ const architectureArray = [ "https://source.unsplash.com/T5nXYXCf50I", "https://
 
 const corporateArray = [ "https://source.unsplash.com/k_T9Zj3SE8k", "https://source.unsplash.com/505eectW54k", "https://source.unsplash.com/IgUR1iX0mqM", "https://source.unsplash.com/9l_326FISzk", "https://source.unsplash.com/qCi_MzVODoU", "https://source.unsplash.com/9Q_pLLP_jmA", "https://source.unsplash.com/IClZBVw5W5A", "https://source.unsplash.com/9sJMyPKlKhw", "https://source.unsplash.com/-v9Z6-uJxk4", "https://source.unsplash.com/ymuAM4S2fxI", "https://source.unsplash.com/b6dfPNHa81w", "https://source.unsplash.com/SL5d_8ywAAA"];
 
+
+
+
+
 function addPics(imageURL) {
     const creatingLi = document.createElement("li");
     creatingLi.classList.add("portfolio_pics_frame");
@@ -30,6 +34,7 @@ const architectureButton = document.getElementById("button_architecture");
 const corporateButton = document.getElementById("button_corporate");
 const portfolioImages = document.querySelectorAll(".portfolio_pics");
 
+
 architectureButton.onclick = function() {
     for (let i = 0; i<portfolioImages.length; i++) {
         portfolioImages[i].src = architectureArray[i];
@@ -47,3 +52,4 @@ weddingButton.onclick = function() {
         portfolioImages[i].src = weddingArray[i];
     }
 }
+//----------------------------------------------------------CAROUSEL------------------------------------------------------------------------

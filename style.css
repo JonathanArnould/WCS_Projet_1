@@ -60,6 +60,8 @@ body {
         cursor: default;
     }
 
+    
+
 #container_photos {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +96,10 @@ body {
     .portfolio_pics_frame {
         width: 100%;
       }
+
+    #container_photos {
+        display: none;
+    }
   }
 
 /* ---------------PARTIE DE BASTIEN ------------ */
