@@ -36,6 +36,12 @@ body {
   text-align: center;
 }
 
+.button_div_portfolio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;;
+}
+
 .button_portfolio {
     width: 20%;
     height: auto;
