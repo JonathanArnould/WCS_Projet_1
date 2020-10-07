@@ -3,21 +3,23 @@ body {
     margin: 0;
     padding: 0;
 }
-
-#portfolio {
-    padding: 0;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
+ 
+.global{
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;  
 }
-
-.paragraphe_presentation {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 5em;
-    margin-top: 5em;
-    padding: 1em 3em;
-    background-color:rgba(27, 37, 51, 1);
+.promos {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.promo {
+  width: 250px;
+  background: #0F1012; 
+  color: #f9f9f9;
+  float: left;
 }
 
 #presentation {
@@ -26,11 +28,12 @@ body {
     color: rgb(255, 255, 255);
     text-align: justify;
 }
-
-.button_div_portfolio {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5em;
+.deal {
+  padding: 10px 0 0 0;
+}
+.deal span {
+  display: block;
+  text-align: center;
 }
 
 .button_portfolio {
@@ -394,3 +397,48 @@ h4 {
     padding: 0;
         
   }
+.deal span:first-of-type {
+  font-size: 23px;  
+}
+.deal span:last-of-type {
+  font-size: 13px;
+}
+.promo .price {
+  display: block;
+  width: 250px;  
+  background: #292b2e;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 17px 0 17px 0;
+}
+.tarot .features {
+  display: block;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+.liste_tarifs {
+  display: block;
+  margin: 10px 0 0 0;
+}
+.bouton_tarif{
+  border: none;
+  border-radius: 40px;
+  background: #292b2e;
+  color: #f9f9f9;
+  padding: 10px 37px;
+  margin: 10px 0 20px 60px;
+}
+.scale {
+  transform: scale(1.2);
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+.scale .bouton_tarif {
+  background: #64AAA4;
+}
+.scale .price {
+  color: #64AAA4;
+}
