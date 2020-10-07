@@ -77,6 +77,9 @@ body {
     object-fit: cover;
   }
 
+
+
+
 /* ---------------PARTIE DE BASTIEN ------------ */
 
 :root{
@@ -87,7 +90,7 @@ body {
 }
 
 
-header, body,html{
+header, body,html, #sommaireMobile{
     margin: 0px;
     padding: 0px;
 }
@@ -99,26 +102,24 @@ header, body,html{
      justify-content: center;
      flex-direction: row;
      background-color: var(--primary-color);
+     
  }
 
  #sommaire{
-     /* border: 1px solid red; */
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      list-style-type:none ;
      width: 45%;
-     font-family: var(--font-h2);
      color: whitesmoke;
      font-size: 1.2em;
-     
  }
 
- a{
+ .li-nav, .li-navMobile{
      color: whitesmoke;
      text-decoration: none;
  }
- a:hover{
+ .li-nav:hover, .li-navMobile:hover{
      color: whitesmoke;
      font-weight: bold;
  }
@@ -131,11 +132,17 @@ header, body,html{
      height: 820px;
      background: url(photo.jpg) no-repeat center center;
      background-size: cover;
+
      display: flex;
      align-items: center;
      justify-items: center;
      justify-content: center;
+
+     position: relative;
+     z-index: 1;
  }
+
+
 #titres{
     display: flex;
     flex-direction: column;
@@ -160,40 +167,131 @@ header, body,html{
     align-items: center;
  }
 
+
+
+ /* menu burger */
+
+ #container-burger{
+     position: relative;
+     width: 30px;
+     height: 22px;
+
+ }
+
+ #burger-up{
+    width: 28px;
+    height: 20px;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 2;
+ }
+
+ #burger-down {
+    width: 28px;
+    height: 20px;
+    cursor: pointer;
+
+     position: absolute;
+     z-index: 1;
+     }
+
+ /* SOMMAIRE POUR MOBILE */
+
+ #sommaireMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+    background-color: var(--primary-color);
+    
+    width: 100%;
+    padding: 50% 0;
+    margin-top: -100rem;
+
+    position: absolute;
+    z-index: 2;
+    transition: 1s;
+}
+
+
+.li-navMobile{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    width: 400px;
+    margin: 20px 0;
+}
+
+
+
+
 /*  MEDIA QUERIES */
 
 @media all and (max-width: 860px)
 {
-    a{
+    .li-nav{
         display: none;
-
-   }
-
-   #burger {
-       width: 28px;
-       height: 20px;
-       color: whitesmoke;
-       /* border: whitesmoke 1px solid; */
-   }
+   } 
 
    .content{
        display: flex;
        justify-content: right;
        padding-right: 3% ;
        align-items: center;
-   }
-   
-
+    }
+    
 } 
 
 
 @media all and (min-width: 860px)
 {
-   #burger {
+   #burger-up, #burger-down {
+       display: none;
+   }
+
+   #sommaireMobile{
        display: none;
    }
   
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* --------------Code CSS de Yanis-----------------*/
  #container-tarifs {
