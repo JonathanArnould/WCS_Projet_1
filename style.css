@@ -109,7 +109,7 @@ body {
 }
 
 
-header, body,html, #sommaireMobile{
+header, html, #sommaireMobile{
     margin: 0px;
     padding: 0px;
 }
@@ -191,10 +191,9 @@ header, body,html, #sommaireMobile{
  /* menu burger */
 
  #container-burger{
-     position: relative;
      width: 30px;
      height: 22px;
-
+     position: relative;
  }
 
  #burger-up{
