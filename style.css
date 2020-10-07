@@ -277,40 +277,6 @@ header, html, #sommaireMobile{
 } 
 /* ----- fin de partie BASTIEN------ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /* --------------Code CSS de Yanis-----------------*/
  #container-tarifs {
     display:flex;
@@ -340,37 +306,52 @@ header, html, #sommaireMobile{
  
 /*css Greg ------------------------ */
 
-form {
-    margin: 0 auto;
-    width: 300px;
-    padding-top: 20px;
-  }
-  
-  label {
-    line-height: 2;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="envoyer"] {
 
-  }
 
-footer{
-    background-color: rgba(27, 37, 51, 1);
+#formulaire  {
+    display: flex;
+    justify-content: space-evenly;
 
+    padding: 0 20em;
+    line-height: 30px;           
+    
 }
 
-#container_footer{
+
+input {
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+#objet {
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+ #message {
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+
+@media all and (max-width: 800px){
+
+iframe {
+        display: none;
+                  
+    }
+    
+    
+}
+
+footer{
+    background-color: rgba(27, 37, 51, 1);}
+
+#container_footer { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgba(27, 37, 51, 1);
 }
 
 .icons_footer{
@@ -386,7 +367,7 @@ footer{
 
 .logo_rs {
   
-  width: 6%; 
+  width: 20px; 
   height: auto;
   margin: 1em; 
     
@@ -408,5 +389,8 @@ h4 {
     display: flex;
     justify-content: center;
     color: #fff;
+    margin: 0;
+    margin-top: 1em;;
+    padding: 0;
         
   }
