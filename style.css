@@ -1,4 +1,8 @@
 /*---------------PORTFOLIO - JONATHAN-------------------*/
+.Greg {
+    margin-top: 30em;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -39,7 +43,7 @@ body {
 .button_div_portfolio {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;;
+  margin-bottom: 5em;
 }
 
 .button_portfolio {
@@ -320,10 +324,11 @@ header, html, #sommaireMobile{
 #formulaire  {
     display: flex;
     justify-content: space-evenly;
-
-    padding: 0 20em;
-    line-height: 30px;           
-    
+    margin: 0 20em;
+    padding: 5em 0;
+    line-height: 30px;  
+    background-color: rgb(40, 55, 77);;       
+    color: white;
 }
 
 
@@ -343,12 +348,14 @@ input {
 }
 
 
-@media all and (max-width: 800px){
+@media all and (max-width: 860px){
 
 iframe {
         display: none;
                   
     }
+
+    
     
     
 }
@@ -361,6 +368,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgba(27, 37, 51, 1);
+    margin-top: 6em;
 }
 
 .icons_footer{
