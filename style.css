@@ -27,14 +27,24 @@ body {
 }
 
 #presentation {
-    width: 100%;
-    font-size: 2vw;
+    width: 80%;
+    font-size: 2.5vw;
     color: rgb(255, 255, 255);
-    text-align: justify;
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: var(--font-texte);
+    border-radius: 2px ;
+    font-weight: bold;
+    border-radius: 4px;
+
+    padding:20px 20px;
+    margin: 70px auto;
 }
+
 .deal {
   padding: 10px 0 0 0;
 }
+
 .deal span {
   display: block;
   text-align: center;
@@ -44,6 +54,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5em;
+  font-family: var(--font-texte);
 }
 
 .button_portfolio {
@@ -117,8 +128,7 @@ body {
 :root{
     --primary-color: rgba(27, 37, 51, 1);
     --font-h1: 'Josefin Slab', serif;
-    --font-h2:'Josefin Slab', serif;
-    --font:'Old Standard TT', serif;
+    --font-texte: 'Italiana', serif;
 }
 
 
@@ -134,6 +144,7 @@ header, html, #sommaireMobile{
      justify-content: center;
      flex-direction: row;
      background-color: var(--primary-color);
+     font-family: var(--font-texte);
      
  }
 
@@ -144,7 +155,7 @@ header, html, #sommaireMobile{
      list-style-type:none ;
      width: 45%;
      color: whitesmoke;
-     font-size: 1.2em;
+     font-size: 1.6em;
  }
 
  .li-nav, .li-navMobile{
@@ -194,7 +205,7 @@ header, html, #sommaireMobile{
 
  #soustitre{
     color: whitesmoke;
-    font: var(--font-h2);
+    font: var(--font-texte);
     font-size: 1.3em;
     align-items: center;
  }
@@ -234,7 +245,8 @@ header, html, #sommaireMobile{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    font-family: var(--font-texte);
+
     list-style-type: none;
     background-color: var(--primary-color);
     
@@ -290,7 +302,13 @@ header, html, #sommaireMobile{
 } 
 /* ----- fin de partie BASTIEN------ */
 
+
+
  /* --------------Code CSS de Yanis-----------------*/
+ 
+ #tarifs{
+   margin-top: 70px;
+ }
  #container-tarifs {
     display:flex;
     justify-content: center;
@@ -322,13 +340,16 @@ header, html, #sommaireMobile{
 
 
 #formulaire  {
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     margin: 0 20em;
     padding: 5em 0;
     line-height: 30px;  
-    background-color: rgb(40, 55, 77);;       
+    background-color: var(--primary-color);
     color: white;
+    font-family: var(--font-texte);
+    font-weight: bold;
 }
 
 
@@ -398,7 +419,8 @@ footer{
     padding: 10px;
     margin: 10;
     margin-right: 20px;
-       
+    font-family: var(--font-texte);
+    font-weight: bold;
   }
   
   
@@ -409,7 +431,7 @@ h4 {
     margin: 0;
     margin-top: 1em;;
     padding: 0;
-        
+    padding-bottom: 20px;
   }
 .deal span:first-of-type {
   font-size: 23px;  
