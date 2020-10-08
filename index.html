@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Pimp my Stal'</title>
+    <title> Tirama photographe</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/946f480422.js" crossorigin="anonymous"></script>
 
     
@@ -23,9 +24,9 @@
 
            <div class="content">
                <ul id="sommaire">
-                 <li> <a class="li-nav" href=""> Portfolio  </a></li>
-                 <li> <a class="li-nav" href=""> Tarifs </a> </li>
-                 <li> <a class="li-nav" href=""> Contact </a> </li>
+                 <li> <a class="li-nav" href="#portfolio"> Portfolio  </a></li>
+                 <li> <a class="li-nav" href="#tarifs"> Tarifs </a> </li>
+                 <li> <a class="li-nav" href="#formulaire"> Contact </a> </li>
                </ul>
 
                <!-- menu burger icon -->
@@ -38,9 +39,9 @@
 
            <div id="contentMobile">
               <ul id="sommaireMobile"> 
-                <li> <a class="li-navMobile" href=""> Portfolio  </a> </li>
-                <li> <a class="li-navMobile" href=""> Tarif </a> </li>
-                <li> <a class="li-navMobile" href=""> Contact </a> </li>
+                <li> <a class="li-navMobile" href="#portfolio"> Portfolio  </a> </li>
+                <li> <a class="li-navMobile" href="#tarifs"> Tarif </a> </li>
+                <li> <a class="li-navMobile" href="#formulaire"> Contact </a> </li>
              </ul>
           </div>
           
@@ -49,7 +50,7 @@
              <div id="titres">
 
                <div> <h1 id="titre">  TIRAMA PHOTOGRAPHE </h1> </div>
-               <div> <h2 id="soustitre"> ---- Bordeaux ---- </h2> </div>
+               <div> <h2 id="soustitre"> - Bordeaux - </h2> </div>
  
              </div> 
            </div>  
@@ -64,7 +65,8 @@
         <div></div>
     <section id = "portfolio">
   
-        <div id = "presentation">  <p class = paragraphe_presentation>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu scelerisque quam. Sed tortor lectus, cursus quis dignissim vel, faucibus ac lacus. Maecenas efficitur nibh id odio aliquam, et pretium lacus malesuada. Integer nisl risus, feugiat id sem eu, ultrices.</p>
+        <div id = "presentation">  <p class = paragraphe_presentation> 
+         Les <strong> photographes de Timara </strong> capturent avec sensibilité, talent, et une totale disponibilité, vos instants les plus marquants </p>
         </div>  <!---largeur 80~90%-->
         <div class = "button_div_portfolio">
           <div class = "button_portfolio" id = "button_wedding"> <p>Mariages</p> </div> <!---largeur 25~30% / eventListener-->
@@ -75,53 +77,58 @@
         <ul id = "container_photos"> </ul>
         
     </section>
-
-    <section class = "Yanis">
-
-      <div class= "global">
-        <div class="promos">  
-        <div class="promo">
-          <div class="deal">
-            <span>Particulier</span>
-            <span>Profitez de la bonne affaire</span>
-          </div>
-            <span class="price">90€</span>
-          <ul class="tarot">
-            <li class = "liste_tarifs"> Shooting personnalise</li>
-            <li class = "liste_tarifs"> 2 photos retouchées</li>
-            <li  class = "liste_tarifs">Et bien plus encore...</li>   
-          </ul>
-          <button class= "bouton_tarif" >Profitez-en !</button>
-        </div>
-        <div class="promo scale">
-          <div class="deal">
-            <span>Pro</span>
-            <span>Une très bonne affaire</span>
-          </div>
-            <span class="price">150€</span>
-          <ul class="features">
-            <li  class = "liste_tarifs">Shooting Personnalise</li>
-            <li  class = "liste_tarifs">15 photos retouchées</li>
-            <li  class = "liste_tarifs">Et bien plus encore...</li>   
-          </ul>
-          <button class="bouton_tarif" >Profitez-en !</button>
-        </div>
-        <div class="promo">
-          <div class="deal">
-            <span>Enfants</span>
-            <span>Offre à saisir</span>
-          </div>
-            <span class="price">70€</span>
-          <ul class="features">
-            <li  class = "liste_tarifs">Choix de la tenue</li>
-            <li  class = "liste_tarifs">15 photos retouchées</li>
-            <li  class = "liste_tarifs">Et bien plus encore...</li>   
-          </ul>
-          <button class= "bouton_tarif" >Profitez-en !</button>
-        </div>
-        </div>
+    <div class="container-fluid" id="tarifs">
+      <div class="price-table-wrapper">
+      
+      <div class="pricing-table" id="pt_02">
+      <h2 class="pricing-table__header silver">- Corporate -</h2>
+      <h6>à partir de</h6>
+      <h3 class="pricing-table__price">&#8364;800</h3>
+      <h6>Forfait à la demi journée</h6>
+      <a target="_blank" class="pricing-table__button" href="#formulaire">
+      Nous contacter
+      </a>
+      <ul class="pricing-table__list">
+      <li>Portraits collaborateurs</li>
+      <li>Reportage vie de l'entreprise</li>
+      <li>Packshot produits</li>
+      <li>Evénement d'entreprise</li>
+      </ul>
+      </div>
+      <div class="pricing-table" id="most">
+      <h2 class="pricing-table__header gold">- Mariage -</h2>
+      <h6>à partir de</h6>
+      <h3 class="pricing-table__price">&#8364;600</h3>
+      <h6>Forfait à la demi journée</h6>
+      <a target="_blank" class="pricing-table__button" href="#formulaire">
+      Nous contacter
+      </a>
+      <ul class="pricing-table__list">
+      <li>Séance engagement</li>
+      <li>Gallerie photo en ligne </li>
+      <li>Livre photo</li>
+      <li>Plusieurs coffrets tirages au choix</li>
+      </ul>
+      </div>
+      <div class="pricing-table" id="pt_04">
+      <h2 class="pricing-table__header platinum">- Studio -</h2>
+      <h6>à partir de</h6>
+      <h3 class="pricing-table__price">&#8364;150</h3>
+      <h6>forfait à l'heure</h6>
+      <a target="_blank" class="pricing-table__button" href="#formulaire">
+      Nous contacter
+      </a>
+      <ul class="pricing-table__list">
+      <li>Portrait ou photos de naissances</li>
+      <li>5 images HD retouchées</li>
+      <li>Tirages sur papier d'art</li>
+      <li>Différents cadre disponibles</li>
+      </ul>
+            </div>
+          </div>                     
         </div>
     </section>
+
     <section class="Greg">
         <section id="formulaire">
   
@@ -153,7 +160,8 @@
                    </select><br/>
                    
               <label for="message">Votre Message:</label><br />
-                   <textarea id="message" name="message"></textarea>
+                   <textarea id="message" name="message" rows="10" cols="40">
+                   </textarea>
                   <br /><br />
                    <input type="submit" id= "button" value="Envoyer"/>
                    
