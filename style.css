@@ -1,6 +1,6 @@
 /*---------------PORTFOLIO - JONATHAN-------------------*/
 .Greg {
-    margin-top: 30em;
+    margin-top: 6em;
 }
 
 body {
@@ -306,52 +306,40 @@ header, html, #sommaireMobile{
 
  /* --------------Code CSS de Yanis-----------------*/
  
- #tarifs{
-   margin-top: 70px;
+ #photo{
+   display: flex;
+   justify-content: center;
+   margin-top: 90px;
  }
- #container-tarifs {
-    display:flex;
-    justify-content: center;
-  }
 
-  #cercle {
-      width: 300px;
-      height: 300px;
-      border-radius: 300px;
-      background:white ;
-      border: solid black;
-      margin-right: 20px
-      
-  }
+#image_tarif{
   
+  width: 60%;
+  height: auto;
   
-  #rond {
-      width: 300px;
-      height: 300px;
-      border-radius: 300px;
-      background:white ;
-      border: solid black;
-      margin-left: 20px;
-  }
+}
 
  
 /*css Greg ------------------------ */
-
+#contactForm {
+  background-color: var(--primary-color);
+  padding: 1em;
+  border-radius: 4px;
+}
 
 
 #formulaire  {
     width: 70%;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 20em;
-    padding: 5em 0;
+    margin: 0 auto;
+    padding: 1em 0;
     line-height: 30px;  
-    background-color: var(--primary-color);
     color: white;
     font-family: var(--font-texte);
     font-weight: bold;
+    
 }
-
 
 input {
     border-radius: 12px;
@@ -373,10 +361,13 @@ input {
 
 iframe {
         display: none;
-                  
+
     }
 
-    
+ #image_tarif {
+   width: 100%;
+   height: auto;
+ }   
     
     
 }
@@ -433,7 +424,18 @@ h4 {
     padding: 0;
     padding-bottom: 20px;
   }
-.deal span:first-of-type {
+
+#button:hover{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* .deal span:first-of-type {
   font-size: 23px;  
 }
 .deal span:last-of-type {
@@ -477,4 +479,4 @@ h4 {
 }
 .scale .price {
   color: #64AAA4;
-}
+} */
